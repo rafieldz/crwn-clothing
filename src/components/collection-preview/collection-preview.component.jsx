@@ -4,6 +4,7 @@ import CollectionItem from '../collection-item/collection-item.components'
 
 import './collection-preview.styles.scss'
 
+// @component CollectionPreview is responsible to 
 const CollectionPreview = ({ title, items }) => (
     <div className='collection-preview'>
         <h1 className='title'>{title.toUpperCase()}</h1>
